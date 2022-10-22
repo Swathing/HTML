@@ -1,0 +1,55 @@
+<h1> Tags HTML texto </h1>
+<p> paragrafo </p>
+<span> paragrafo legenda </span>
+<b> tudo que estiver dentro em negrito </b>
+<i> transforma em italico </i>
+<h1> titulo </h1>
+<h2> titulo </h2>
+<h3> titulo </h3>
+<h4> titulo </h4>
+<h5> titulo </h5>
+<h6> titulo </h6>
+<br>br é uma tag que pula linha 
+<hr>cria uma linha horizontal
+<a href="">tag de link</a>
+
+<h1>Tags HTML multimídia</h1>
+<img src="logo.png" height="150">
+<video controls>
+    <source src="video.mp4" type="video/mp4">
+</video>
+<audio controls>
+    <source src="audio.mp3" type="audio/mp3">
+</audio>
+
+<style>
+    body {
+      padding: 15px;
+      background-color: white;
+      color: black;
+      font-size: 15px;
+    }
+    .dark-mode {
+      background-color: black;
+      color: white;
+    }
+    .light-mode {
+      background-color: white;
+      color: black;
+    }
+  </style>
+
+  <script>
+    function darkMode() {
+      var element = document.body;
+      var content = document.getElementById("DarkModetext");
+      element.className = "dark-mode";
+      content.innerText = "Dark Mode is ON";
+    }
+    function lightMode() {
+      var element = document.body;
+      var content = document.getElementById("DarkModetext");
+      element.className = "light-mode";
+      content.innerText = "Dark Mode is OFF";
+    }
+  </script>
